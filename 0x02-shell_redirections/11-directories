@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -mindpath 1 -not -path '*/\.*' | wc -1
+find . -type d -not -name '.' | wc -l
