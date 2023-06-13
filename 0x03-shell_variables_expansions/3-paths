@@ -1,2 +1,2 @@
 #!/bin/bash
-find PATH  -type d -mindepth 1 -maxdepth 1 | wc -l
+echo $PATH  | tr ':' '\n' | wc -1
