@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'your text' | tr 'A-Za-Z' 'N-ZA-Mn-za-m' 
+tr 'A-Za-Z' 'N-ZA-Mn-za-m' 
