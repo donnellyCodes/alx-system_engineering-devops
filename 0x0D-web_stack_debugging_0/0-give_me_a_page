@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script is used to fix apache server
+# With help of Docker
+sudo service apache2 start
+
