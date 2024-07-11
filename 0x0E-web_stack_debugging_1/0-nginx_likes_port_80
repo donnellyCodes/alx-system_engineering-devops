@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that automates command for nginx
+
+#remove default nginx configuration file
+rm /etc/nginx/sites-enabled/default
+#configure nginx to listen to port 80
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+#restart nginx
+service nginx restart
