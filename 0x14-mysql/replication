@@ -1,5 +1,5 @@
 web01 - CREATE USER slave@'%' IDENTIFIED BY 'password';
-web01 - GRANT REPLICATION SLAVE ON  *.* TO slave'%';
+web01 - GRANT REPLICATION SLAVE ON  *.* TO slave@'%';
 web01 - FLUSH PRIVILEGES;
 web01 - SHOW MASTER STATUS;
 
