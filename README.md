@@ -105,10 +105,3 @@ cd 0x00-shell_basics
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to explore the projects and reach out if you have any questions or suggestions!
-
-```
-
-Would you like help adding badges (e.g., GitHub stats, license, or workflow status)?
-```
